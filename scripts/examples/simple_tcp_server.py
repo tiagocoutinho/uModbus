@@ -5,7 +5,7 @@ from socketserver import TCPServer
 from collections import defaultdict
 
 from umodbus import conf
-from umodbus.server import get_server
+from umodbus.server.tcp import get_server
 from umodbus.server.tcp import RequestHandler
 from umodbus.utils import log_to_stream
 
